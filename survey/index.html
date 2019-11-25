@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <div>
+  <header class="header text-center">
+    <h1 id="title">Survey Form</h1>
+  </header>
+  <section>
+    <form id="survey-form">
+      <p id="description">Please, fill in:</p>
+      <div class="form-group">
+      <label id="name" for="name">1. Name:</label>
+        <input type="text" required id="name" name="survey" placeholder="name" class="form-control"></div>
+      
+      <div class="form-group">
+      <label id="email" for="email">2. Email:</label>
+        <input type="email" required id="email" name="survey" placeholder="e-mail" class="form-control"></div>
+      
+      <div class="form-group">
+      <label id="number" for="age">3. Age:</label>
+        <input type="number" id="age" name="survey" min="10" max="100" placeholder="age" class="form-control"></div>
+
+       <div class="form-group">
+        <p>4. What is your favourite animals?</p>
+        <label><input id="cats" type="radio" name="animals" value="cats" checked  class="input-radio">cats</label><br>
+        <label><input id="dogs" type="radio" name="animals" value="dogs" class="input-radio">dogs</label><br>
+        <label><input id="catsdogs" type="radio" name="animals" value="catsdogs" class="input-radio">cats and dogs</label>
+      </div>
+      
+          <div class="form-group">
+          <p>5. What is your favourite colours?</p>
+          <select id="dropdown" class="form-control" name="colours" required size="2" multiple >
+          <option value="red">red</option>
+          <option value="black">black</option>
+          <option value="green">green</option>
+          <option value="blue">blue</option>
+            </select></div>
+      
+      <div class="form-group">
+        <p>6. Are you satisfied at your work?
+          <span class="clue">(Check all that apply)</span><br><br>
+          <label><input name="satis" value="yes" type="checkbox" class="input-checkbox">Yes</label><br>
+          <label><input name="satis" value="no" type="checkbox" class="input-checkbox">No</label><br>
+          <label><input name="satis" value="maybe" type="checkbox" class="input-checkbox">Maybe</label><br>
+          <label><input name="satis" value="idwould" type="checkbox" class="input-checkbox">I would like to change my job</label>
+        </p>
+       </div>
+      <div class="form-group"><p>7. Additional comments:</p>
+        <textarea name="message" rows="10" cols="40">Enter</textarea></div>
+
+      <button id="submit" type="submit" name="submit" value="Submit">Submit</button>
+    </form>
+  </section>
+  </div>
+</body>
+  
+
+
+</html>
+
+
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
