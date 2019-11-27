@@ -1,0 +1,205 @@
+html {
+  font-family: serif;
+  text-align: center;
+  }
+
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 80px;
+  min-height: 75px;
+}
+
+.menu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+   
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #86af49;
+  
+}
+
+li {
+  float: right;
+  
+    }
+
+li a {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  padding: 20px 30px;
+  color: #fefbd8;
+}
+
+#img-header {
+  display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+h1 {
+  padding: 40px 0px 0px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+
+
+@media (min-width: 480px)
+
+ .iframe {
+    display: flex;
+    margin-top: 50px;
+   justify-content: center;
+}
+
+body {
+  background-color: #eee;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.button {
+  padding: 5px 20px;
+  text-transform: uppercase;
+  border: 2px #86af49 solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.logo {
+  width: 20vw;
+  border: 2px #86af49 solid;
+  border-radius: 2%;
+}
+
+@media (max-width: 350px) {
+  .logo {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    height: auto;
+  }
+}
+.logo > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-left: 0px;
+}
+
+@media (max-width: 350px) {
+  .logo>img {
+    margin: 0 auto;
+  }
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #86af49;
+  color: #fefbd8;
+  padding: 15px;
+}
+
+span {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.8em;
+}
+
+body {
+  margin: 0 auto;
+}
+
+section {
+  margin-bottom: 100px;
+  margin-top: 50px;
+  padding: 30px;
+}
+
+h2 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+  text-decoration: overline;
+  letter-spacing: 3px;
+}
+
+p {
+  align-items: center;
+  display: flex;
+  margin-left: 18%;
+  margin-right: 18%;
+  text-align: center;
+  letter-spacing: 1px;
+  padding: 20px;
+  line-height: 140%;
+    
+  
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: 400;
+   }
+
+iframe {
+  margin-bottom: 100px;
+  border: 10px #86af49 solid;
+}
+
+#komiksy {
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0 80px;
+}
+
+
+form {
+  display: block;
+  margin-top: 50px;
+}
+
+#email {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px #86af49 solid;
+}
+
+#komiks1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+#komiks2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  
+}
+
+#komiks3 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+
+
+
