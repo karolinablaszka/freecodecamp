@@ -1,0 +1,161 @@
+html {
+  text-align: center;
+  background: #d9d9d9;
+  scroll-behavior: smooth;
+  }
+
+/*1200px/16px*/
+@media (max-width: 75em) {
+  html {
+    font-size: 75%;
+  }
+}
+@media (max-width: 61.25em) {
+  html {
+    font-size: 73%;
+  }
+}
+@media (max-width: 28.75em) {
+  html {
+    font-size: 70%;
+  }
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #6ed3cf;
+  overflow: hidden;
+  font-size: 1.2rem;
+  
+}
+
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  
+}
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+  .nav-list {
+    margin: 0 1rem;
+  }
+  .welcome {
+    margin-top: 8rem;
+  }
+}
+
+@media (max-width: 30.625em) {
+  .projects-section {
+    padding: 10rem 1rem;
+  }
+}
+
+li {
+  float: right;
+}
+li a {
+  text-decoration: none;
+  padding: 30px 40px;
+  display: block;
+  color: #fefbd8;
+  font-family: 'Bebas Neue', cursive;
+  letter-spacing: 4px;
+  
+}
+
+div {
+  font-family: 'Solway', serif; 
+  font-size: 1.5rem;
+  
+}
+
+#welcome {
+  height: 100vh;
+  width: 100%;
+  margin-top: px;
+  background: #9068be;
+  color: #d4d4dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+  color: #e62739;
+  margin: -5rem auto 5rem auto;
+}
+h3 {
+  color: #6ed3cf;
+  font-size: 2rem;
+}
+h4 {
+  font-size: 2.5rem;
+}
+
+#projects {
+  height: 100vh;
+  background: #e1e8f0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+a {
+  text-decoration: none;
+  color: #636363;
+}
+
+#contact {
+  height: 90vh;
+  background: #e62739;
+  color: #d4d4dc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 3rem;
+}
+.contact-details {
+  color: #6ed3cf;
+  text-shadow: 2px 1px 1px #1f1f1f;
+  
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 2rem;
+  
+}
+
+body {
+  margin: 0 auto;
+}
+
+span {
+  font-size: 0.7em;
+  color: #fefbd8;
+  font-family: 'Bebas Neue', cursive;
+  padding: 10px 15px;
+  letter-spacing: 3px;
+  
+}
+
+footer {
+  display: flex;
+  justify-content: flex-end;
+  background-color:  #6ed3cf;
+  }
